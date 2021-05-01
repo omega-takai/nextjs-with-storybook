@@ -9,9 +9,9 @@ export default {
     decorators: [withKnobs],
 };
 
-export const Basic = () => <ScssButton>Submit</ScssButton>;
+export const Basic = (): JSX.Element => <ScssButton>Submit</ScssButton>;
 
-export const DynamicVariables = () => {
+export const DynamicVariables = (): JSX.Element => {
     const label = select("label", ["Submit", "Cancel"], "Docs");
     return <ScssButton>{label}</ScssButton>;
 };

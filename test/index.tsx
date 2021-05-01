@@ -16,7 +16,7 @@ import store from "@redux/store";
  * please visit https://testing-library.com/docs/react-testing-library/setup
  */
 
-export const AllTheProviders = ({ children }) => {
+export const AllTheProviders: React.FC = ({ children }) => {
     return (
         <>
             <Provider store={store}>{children}</Provider>
@@ -24,7 +24,10 @@ export const AllTheProviders = ({ children }) => {
     );
 };
 
-const render = (ui: ReactElement, options?: Omit<RenderOptions, "queries">) =>
+const render = (
+    ui: ReactElement,
+    options?: Omit<RenderOptions, "queries">,
+): RenderResult =>
     baseRender(ui, { wrapper: AllTheProviders, ...options }) as RenderResult;
 
 // re-export everything

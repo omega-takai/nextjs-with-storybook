@@ -9,6 +9,7 @@
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
         "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+        "lint:fix": "yarn lint --fix",
         "prettier": "prettier --write '**/*.{js,jsx,ts,tsx}'",
         "test": "jest -c test/jest.config.js",
         "cypress:open": "cypress open",

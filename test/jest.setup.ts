@@ -9,18 +9,18 @@ dotenv.config({ path: ".env.test" });
 axios.defaults.adapter = httpAdapter;
 
 afterAll(() => {
-    nock.cleanAll();
-    nock.restore();
+  nock.cleanAll();
+  nock.restore();
 });
 
 window.matchMedia = jest.fn().mockImplementation((query) => {
-    return {
-        matches: false,
-        media: query,
-        onchange: null,
-        addListener: jest.fn(),
-        removeListener: jest.fn(),
-    };
+  return {
+    matches: false,
+    media: query,
+    onchange: null,
+    addListener: jest.fn(),
+    removeListener: jest.fn(),
+  };
 });
 
 window.scroll = jest.fn();

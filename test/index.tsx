@@ -1,8 +1,8 @@
 import React, { ReactElement } from "react";
 import {
-    render as baseRender,
-    RenderOptions,
-    RenderResult,
+  render as baseRender,
+  RenderOptions,
+  RenderResult,
 } from "@testing-library/react";
 
 import { Provider } from "react-redux";
@@ -17,18 +17,18 @@ import store from "@redux/store";
  */
 
 export const AllTheProviders: React.FC = ({ children }) => {
-    return (
-        <>
-            <Provider store={store}>{children}</Provider>
-        </>
-    );
+  return (
+    <>
+      <Provider store={store}>{children}</Provider>
+    </>
+  );
 };
 
 const render = (
-    ui: ReactElement,
-    options?: Omit<RenderOptions, "queries">,
+  ui: ReactElement,
+  options?: Omit<RenderOptions, "queries">,
 ): RenderResult =>
-    baseRender(ui, { wrapper: AllTheProviders, ...options }) as RenderResult;
+  baseRender(ui, { wrapper: AllTheProviders, ...options }) as RenderResult;
 
 // re-export everything
 export * from "@testing-library/react";

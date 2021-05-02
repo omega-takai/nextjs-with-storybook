@@ -3,9 +3,9 @@ import { render } from "@test";
 import { Card } from "./index";
 
 describe("Wrapper component testing with testing-library", () => {
-    const component = render(<Card />);
+  const component = render(<Card />);
 
-    it("renders without crashing", () => {
-        expect(component).toBeTruthy();
-    });
+  it("renders without crashing", () => {
+    expect(component).toBeTruthy();
+  });
 });

@@ -12,6 +12,7 @@
         "lint:fix": "yarn lint --fix",
         "prettier": "prettier --write '**/*.{js,jsx,ts,tsx}'",
         "test": "jest -c test/jest.config.js",
+        "format:package-json": "sort-package-json",
         "lint-staged": "lint-staged"
     },
     "dependencies": {
@@ -54,6 +55,7 @@
         "nock": "^13.0.6",
         "pre-commit": "^1.2.2",
         "sass-loader": "^10.1.1",
+        "sort-package-json": "^1.49.0",
         "style-loader": "^2.0.0",
         "ts-jest": "^26.4.4",
         "typescript": "^4.1.3"

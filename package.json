@@ -11,7 +11,8 @@
         "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
         "lint:fix": "yarn lint --fix",
         "prettier": "prettier --write '**/*.{js,jsx,ts,tsx}'",
-        "test": "jest -c test/jest.config.js"
+        "test": "jest -c test/jest.config.js",
+        "lint-staged": "lint-staged"
     },
     "dependencies": {
         "@reduxjs/toolkit": "^1.5.0",
@@ -59,12 +60,8 @@
     },
     "lint-staged": {
         "*.{js,jsx,ts,tsx}": [
-            "yarn lint --fix"
+            "yarn eslint --fix"
         ]
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    }
+    "pre-commit": "lint-staged"
 }

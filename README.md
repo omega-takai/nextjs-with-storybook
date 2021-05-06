@@ -2,6 +2,11 @@
 
 This project was generated with [superplate](https://github.com/pankod/superplate).
 
+## DEMO
+
+- [Published Demo](https://nextjs-with-storybook.vercel.app/)
+- [Storybook with GitHubPages](https://t--takai.github.io/nextjs-with-storybook/)
+
 ## Getting Started
 
 superplate is a Next.js all-in-one project generator. Create your project with the tools you need without spending hours on setting them up.

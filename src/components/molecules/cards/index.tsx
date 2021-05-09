@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./index.module.scss";
 import data from "@public/meta.json";
-import { Card } from "@components/scss";
+import { Card } from "@components/atoms/card";
 
 export const Cards: React.FC = () => {
   return (

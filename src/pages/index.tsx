@@ -1,6 +1,9 @@
 import React from "react";
 
-import { Header, Main, Cards, Footer } from "@components/scss";
+import { Header } from "@components/organisms/header";
+import { Footer } from "@components/organisms/footer";
+import { Cards } from "@components/molecules/cards";
+import { Main } from "@components/molecules/main";
 
 const Home: React.FC = () => {
   return (

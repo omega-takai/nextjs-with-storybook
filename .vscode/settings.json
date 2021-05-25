@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "Hiragino",
+    "Meiryo",
+    "YakuHanJP",
+    "next",
+    "redux",
+    "reseter"
+  ],
+  "cSpell.ignorePaths": [
+    "node_modules",
+    "package.json",
+    "vscode-extension",
+    "yarn.lock",
+    ".git"
+  ]
+}

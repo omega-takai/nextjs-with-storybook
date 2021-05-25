@@ -1,2 +1,9 @@
 node_modules
 __generated__
+
+**/node_modules/*
+**/out/*
+**/.next/*
+
+next.config.js
+preview.js

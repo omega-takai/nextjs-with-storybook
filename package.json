@@ -15,7 +15,7 @@
         "test": "jest -c test/jest.config.js"
     },
     "dependencies": {
-        "@reduxjs/toolkit": "1.5.1",
+        "@reduxjs/toolkit": "1.9.7",
         "next": "12.1.6",
         "next-compose-plugins": "2.2.1",
         "prettier": "2.2.1",

@@ -10733,10 +10733,10 @@ reselect@^4.1.8:
   resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.1.8.tgz#3f5dc671ea168dccdeb3e141236f69f02eaec524"
   integrity sha512-ab9EmR80F/zQTMNeneUr4cv+jSwPJgIlvEmVwLerwrWVbpLlBuls9XHzIeTFy4cegU2NHBp3va0LKOzU5qFEYQ==
 
-reseter.css@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/reseter.css/-/reseter.css-1.1.3.tgz#0fffed00c0d115c8ba20f60f011917063cc70027"
-  integrity sha512-34Jz+JDw+tQ4vl7gggQevakSmFxgI0EQEazGlahDQSRhRXuwXY4aGPYwzGTZsUHyHJwxRmUc68l+FcpYfN+maQ==
+reseter.css@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/reseter.css/-/reseter.css-1.2.0.tgz#4ce230f8f1165c702e30afff92bdb0ea0caccca0"
+  integrity sha512-uBM+XnEfTq36Q1jHyujkBTMpNT07ZLd4++tw4dwfx55fpL4Hz5zOq9oEy+dmEJq6l8UR/UgKjbBMkJ9SOtfepg==
 
 resize-observer-polyfill@^1.5.1:
   version "1.5.1"

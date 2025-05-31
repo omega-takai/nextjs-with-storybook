@@ -36,7 +36,7 @@
         "lint:staged"
     ],
     "devDependencies": {
-        "@babel/core": "7.26.10",
+        "@babel/core": "7.27.4",
         "@storybook/addon-actions": "6.5.16",
         "@storybook/addon-essentials": "6.5.16",
         "@storybook/addon-knobs": "6.4.0",

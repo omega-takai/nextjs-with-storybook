@@ -24,7 +24,7 @@
         "react-redux": "7.2.9",
         "react-use": "15.3.8",
         "reseter.css": "1.2.0",
-        "sass": "1.85.1"
+        "sass": "1.89.2"
     },
     "lint-staged": {
         "*.{js,jsx,ts,tsx}": [
